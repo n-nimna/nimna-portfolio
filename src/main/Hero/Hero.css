@@ -1,0 +1,50 @@
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Slide-Up Animation s*/
+  @keyframes slideUp {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slider-container {
+    position: relative; /* Ensures child elements like dots can be positioned */
+  }
+  
+  .slide-up {
+    animation: slideUp 1s ease-out;
+  }
+  
+  /* Slick Dots Customization */
+  .slick-dots {
+    bottom: 10px !important; /* Adjust dot position */
+
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px; /* Dot size */
+    color: #fff; /* Dot color */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ec4899; /* Active dot color */
+  }
+  

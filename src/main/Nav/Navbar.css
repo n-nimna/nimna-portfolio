@@ -1,0 +1,16 @@
+/* Add this custom CSS to your stylesheet k*/
+
+nav a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right, #ec4899, #a855f7, #3b82f6);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}

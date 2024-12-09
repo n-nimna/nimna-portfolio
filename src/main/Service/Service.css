@@ -1,0 +1,99 @@
+/* General Styles */
+#services {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.service-card {
+  background: #1A1A1A;
+  width: 85%; /* Adjust for responsive scaling */
+  height: auto; /* Remove fixed height */
+  transition: background 0.5s ease, transform 0.5s ease;
+  padding: 25px;
+  text-align: center;
+  font-weight: 300;
+  border-radius: 15px; /* Optional rounded corners */
+}
+
+/* Hover Effects */
+.service-card:hover {
+  background: linear-gradient(to right, #ec4899, #a855f7, #3b82f6);
+  transform: translateY(-10px); /* Optional for hover effect */
+  width: 85%; /* Slightly increase width on hover */
+  height: auto; /* Slightly increase height on hover */
+}
+
+/* Icon Hover Effect */
+.service-card i {
+  color: #8762F6;
+  transition: color 0.5s ease;
+  margin-top: 20px;
+}
+
+.service-card:hover i {
+  color: #ffffff;
+}
+
+/* Text Color */
+.service-card p, .service-card h2 {
+  color: #ffffff;
+  transition: color 0.5s ease;
+  font-weight: 400;
+}
+
+/* Hover text color */
+.service-card:hover p, .service-card:hover h2 {
+  color: #000000;
+  font-weight: 400; /* Black on hover */
+}
+
+/* Default link text color */
+.service-card a {
+  color: #ffffff;
+  transition: color 0.5s ease;
+}
+
+.service-card:hover a {
+  color: #000000; /* Black on hover */
+}
+
+/* Responsive Layout for Different Screens */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+
+  #services {
+    margin-left: 20px; /* Less margin on tablet screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Single column on mobile */
+    gap: 30px; /* Adjust gap between cards */
+    margin: 20px;
+  }
+
+  .service-card {
+    width: 100%; /* Ensure cards are full width on mobile */
+    height: auto;
+  }
+
+  .service-card:hover {
+    width: 100%; /* Ensure full width on hover */
+    transform: translateY(-8px); /* Slightly less hover effect on mobile */
+  }
+
+  .service-card i {
+    font-size: 3rem; /* Reduce icon size for mobile */
+  }
+
+  .service-card h2 {
+    font-size: 1.5rem; /* Adjust heading size for mobile */
+  }
+
+  .service-card p {
+    font-size: 0.9rem; /* Adjust paragraph size for readability */
+  }
+}

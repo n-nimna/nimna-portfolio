@@ -1,0 +1,11 @@
+.social-icon {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #f472b6; /* Add hover effect */
+  }
+  /*hi*/
