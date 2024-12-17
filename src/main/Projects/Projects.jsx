@@ -47,7 +47,7 @@ const Projects = () => {
               },
               {
                 icon: "fab fa-behance",
-                url: "https://www.behance.net/example",
+                url: "https://www.behance.net/gallery/212455075/LeisureWorld-Redesign-Website",
               },
               {
                 icon: "fab fa-dribbble",
@@ -64,7 +64,7 @@ const Projects = () => {
         links: [
           {
             icon: "fab fa-linkedin",
-            url: "https://www.linkedin.com/posts/example",
+            url: "https://www.behance.net/gallery/208523379/Beauty-Clinic-Website-Design",
           },
           {
             icon: "fab fa-behance",
