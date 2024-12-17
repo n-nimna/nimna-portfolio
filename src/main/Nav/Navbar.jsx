@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     <div>
       {/* Desktop Navbar */}
-      <nav className="bg-black text-white py-4 fixed top-0 left-0 w-full z-50 hidden md:flex justify-between items-center px-20 shadow-md">
+      <nav className="bg-black text-white py-4 fixed top-0 left-0 w-full z-50 hidden md:flex justify-between items-center px-20 shadow-md mt-0 mb-3">
   {/* Logo with less gap */}
-  <div className="font-bold text-2xl bg-custom-gradient bg-clip-text text-transparent">NIMESHI</div>
+  <div className="font-bold text-2xl bg-custom-gradient bg-clip-text text-transparent mt-3">NIMESHI</div>
 
   {/* Navbar Links with reduced gap */}
-  <div className="space-x-8 text-m flex relative">
+  <div className="space-x-8 text-m flex relative mt-3">
   <a href="#hero1" className="hover:text-white-700 relative font-medium">Home</a>
   <a href="#about" className="hover:text-white-700 relative font-medium">About</a>
   <a href="#service" className="hover:text-white-700 relative font-medium">Service</a>
@@ -30,10 +30,10 @@ const Navbar = () => {
 
 
       {/* Mobile Navbar */}
-      <div className="md:hidden">
+      <div className="md:hidden ">
         {/* Hamburger Icon */}
       {/* Hamburger Icon */}
-<div className="fixed top-0 left-0 z-10">
+<div className="fixed top-0 left-0 z-10 mt-3">
   <button
     onClick={toggleMenu}
     className="text-white p-4"
@@ -85,7 +85,7 @@ const Navbar = () => {
   </button>
 
   {/* Side Menu Links */}
-  <div className="space-y-3 text-lg">
+  <div className="space-y-3 text-lg mt-2">
     <a href="#home" className="block hover:text-gray-400 font-medium">Home</a>
     <a href="#about" className="block hover:text-gray-400 font-medium">About</a>
     <a href="#service" className="block hover:text-gray-400 font-medium">Service</a>

@@ -9,3 +9,10 @@
     color: #f472b6; /* Add hover effect */
   }
   /*hi*/
+
+  @media (max-width: 768px) {
+    #about img {
+      transform: translateY(-55px); /* Moves the image up */
+    }
+  }
+  
