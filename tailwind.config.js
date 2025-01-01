@@ -15,6 +15,9 @@ module.exports = {
       },
       spacing: {
         '128': '32rem',
+      },
+      screens: {
+        'xs': '480px', // Custom extra small breakpoint
       }
     },
   },

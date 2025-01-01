@@ -19,7 +19,7 @@ const Projects = () => {
     const projects = [
 
       {
-        id: 2,
+        id: 7,
         image: PortfolioImage,
         title: "Personal Portfolio Website",
         pharagraph: "Using React JS" ,
@@ -42,7 +42,7 @@ const Projects = () => {
       
 
       {
-        id: 1,
+        id: 6,
         image: TutionImage,
         title: "Website Development Tution Class",
         pharagraph: "Using React JS" ,
