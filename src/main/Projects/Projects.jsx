@@ -250,9 +250,7 @@ const Projects = () => {
                 <h3 className="text-base md:text-lg lg:text-xl font-medium text-white mb-2">
                   {project.title}
                 </h3>
-                <p className="text-base md:text-lg text-white mb-5">
-                  {project.pharagraph}
-                </p>
+               
                 {project.subtitle && (
                   <span className="text-sm md:text-base text-white/80 mb-5">
                     {project.subtitle}

@@ -102,7 +102,7 @@ const Hero = () => {
 
       <Slider {...settings} className="w-full relative">
         {/* First Slider Item */}
-        <div className="relative h-[60vh] flex items-center justify-center">
+        <div className="relative h-[60vh] flex items-center justify-center" >
           <div className="absolute w-full h-full bg-black bg-opacity-50 z-10"></div>
           <div className="relative z-20 text-center">
             <span className="block text-xl lg:text-2xl text-pink-300 font-semibold tracking-widest mb-4">
