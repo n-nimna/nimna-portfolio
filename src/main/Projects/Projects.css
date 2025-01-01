@@ -1,0 +1,36 @@
+/* Responsive Layout for Different Screens */
+@media (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+  
+    .project-card {
+      margin-left: 10px; /* Adjust spacing for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Single column on mobile */
+      gap: 20px; /* Adjust gap for mobile */
+      margin: 0px;
+    }
+  
+    .project-card {
+      width: 100%; /* Full width for mobile */
+      height: auto;
+    }
+  
+    .project-card:hover {
+      transform: translateY(-5px); /* Subtle hover effect */
+    }
+  
+    .project-title {
+      font-size: 1.5rem; /* Mobile title size */
+    }
+  
+    .project-subtitle {
+      font-size: 1rem; /* Mobile subtitle size */
+    }
+  }
+  
