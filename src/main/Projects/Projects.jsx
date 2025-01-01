@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import flowerShopImage from "../../assets/UI_DESIGN/flowershop.png";
-import YogaImage from "../../assets/UI_DESIGN/yogaclass.png";
-import MedicalImage from "../../assets/UI_DESIGN/medical.png";
+import YogaImage from "../../assets/UI_DESIGN/yogaclass.jpg";
+import MedicalImage from "../../assets/UI_DESIGN/medical.jpg";
 import LeisuImage from "../../assets/UI_DESIGN/lr.png";
+import AuctionImage from "../../assets/UI_DESIGN/auction.jpg";
+import TutionImage from "../../assets/web_design/Tution.jpg";
+import PortfolioImage from "../../assets/web_design/port.jpg";
+
 
 
 
@@ -14,26 +18,94 @@ const Projects = () => {
   
     const projects = [
 
-  /*    {
+      {
+        id: 2,
+        image: PortfolioImage,
+        title: "Personal Portfolio Website",
+        pharagraph: "Using React JS" ,
+        category: "Web Development",
+        links: [
+          {
+            icon: "fab fa-github",
+            url: "https://github.com/n-nimna/nimna-portfolio",
+          },
+          {
+            icon: "fab fa-linkedin",
+            url: "https://www.linkedin.com/in/nimeshi-dilshara-b2508a255/details/projects/",
+          },
+          {
+            icon: "fas fa-globe",
+            url: "",
+          },
+        ],
+      },
+      
+
+      {
+        id: 1,
+        image: TutionImage,
+        title: "Website Development Tution Class",
+        pharagraph: "Using React JS" ,
+        category: "Web Development",
+        links: [
+          {
+            icon: "fab fa-github",
+            url: "https://github.com/n-nimna/BrightMind-Website",
+          },
+          {
+            icon: "fab fa-linkedin",
+            url: "https://www.linkedin.com/posts/nimeshi-dilshara-b2508a255_react-vite-webdevelopment-activity-7277520260579172352-cEXq?utm_source=share&utm_medium=member_desktop",
+          },
+          {
+            icon: "fas fa-globe",
+            url: "https://n-nimna.github.io/BrightMind-Website/",
+          },
+        ],
+      },
+
+      /*{
+        id: 1,
+        image: TutionImage,
+        title: "Website Development Tution Class",
+        pharagraph: "Using React JS" ,
+        category: "Web Development",
+        links: [
+          {
+            icon: "fab fa-github",
+            url: "https://github.com/n-nimna/BrightMind-Website",
+          },
+          {
+            icon: "fab fa-linkedin",
+            url: "https://www.linkedin.com/posts/nimeshi-dilshara-b2508a255_react-vite-webdevelopment-activity-7277520260579172352-cEXq?utm_source=share&utm_medium=member_desktop",
+          },
+          {
+            icon: "fas fa-globe",
+            url: "https://n-nimna.github.io/BrightMind-Website/",
+          },
+        ],
+      },*/
+      
+
+      {
         id: 5,
-        image: MedicalImage,
-        title: "Website Design Medical Center",
+        image: AuctionImage,
+        title: "Website Design Auction",
         category: "UI Designs",
         links: [
           {
             icon: "fab fa-linkedin",
-            url: "https://www.linkedin.com/posts/example",
+            url: "https://www.linkedin.com/posts/nimeshi-dilshara-b2508a255_uiuxdesign-design-auctionwebsite-activity-7275312227665002496-_w46?utm_source=share&utm_medium=member_desktop",
           },
           {
             icon: "fab fa-behance",
-            url: "https://www.behance.net/example",
+            url: "https://www.behance.net/gallery/215059919/Auction-Website-Design",
           },
           {
             icon: "fab fa-dribbble",
             url: "",
           },
         ],
-      },*/
+      },
 
      {
           id: 4,
@@ -175,9 +247,12 @@ const Projects = () => {
                 transition-opacity duration-300
                 ${activeProject === project.id ? 'opacity-100' : 'opacity-0 hover:opacity-100'}`}
               >
-                <h3 className="text-base md:text-lg lg:text-xl font-medium text-white mb-5">
+                <h3 className="text-base md:text-lg lg:text-xl font-medium text-white mb-2">
                   {project.title}
                 </h3>
+                <p className="text-base md:text-lg text-white mb-5">
+                  {project.pharagraph}
+                </p>
                 {project.subtitle && (
                   <span className="text-sm md:text-base text-white/80 mb-5">
                     {project.subtitle}
