@@ -224,7 +224,7 @@ const Projects = () => {
       <br />
     
       {/* Projects Grid */}
-      <div className="mx-auto px-8 max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-6 lg:gap-8">
+      <div className="mx-auto px-8 max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-6 lg:gap-8 sm:w-4/4">
         {projects
           .filter((project) => project.category === activeCategory)
           .map((project) => (
