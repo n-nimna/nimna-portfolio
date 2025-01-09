@@ -7,6 +7,8 @@ import LeisuImage from "../../assets/UI_DESIGN/lr.png";
 import AuctionImage from "../../assets/UI_DESIGN/auction.jpg";
 import TutionImage from "../../assets/web_design/Tution.jpg";
 import PortfolioImage from "../../assets/web_design/port.jpg";
+import VolImage from "../../assets/UI_DESIGN/volapp.jpg";
+
 
 
 
@@ -85,6 +87,27 @@ const Projects = () => {
         ],
       },*/
       
+      {
+        id: 6,
+        image: VolImage,
+        title: "Volunteer Social App Design",
+        category: "UI Designs",
+        links: [
+          {
+            icon: "fab fa-linkedin",
+            url: "",
+          },
+          {
+            icon: "fab fa-behance",
+            url: "https://www.behance.net/gallery/216473633/Volunteer-Focuced-Social-App",
+          },
+          {
+            icon: "fab fa-dribbble",
+            url: "",
+          },
+        ],
+      },
+
 
       {
         id: 5,
