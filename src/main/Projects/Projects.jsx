@@ -8,6 +8,7 @@ import AuctionImage from "../../assets/UI_DESIGN/auction.jpg";
 import TutionImage from "../../assets/web_design/Tution.jpg";
 import PortfolioImage from "../../assets/web_design/port.jpg";
 import VolImage from "../../assets/UI_DESIGN/volapp.jpg";
+import HotelImage from "../../assets/web_design/hotel.jpg";
 
 
 
@@ -20,11 +21,35 @@ const Projects = () => {
   
     const projects = [
 
+
+      {
+        id: 8,
+        image: HotelImage,
+        title: "Responsive Hotel Booking Website",
+        pharagraph: "Using React,Tailwind CSS" ,
+        category: "Web Development",
+        links: [
+          {
+            icon: "fab fa-github",
+            url: "https://github.com/n-nimna/Hotel-Booking-Website",
+          },
+          {
+            icon: "fab fa-linkedin",
+            url: "https://www.linkedin.com/posts/nimeshi-dilshara-b2508a255_react-frontend-uiux-activity-7287400290280972288-Al9d?utm_source=share&utm_medium=member_desktop",
+          },
+          {
+            icon: "fas fa-globe",
+            url: "https://n-nimna.github.io/Hotel-Booking-Website/",
+          },
+        ],
+      },
+      
+
       {
         id: 7,
         image: PortfolioImage,
         title: "Personal Portfolio Website",
-        pharagraph: "Using React JS" ,
+        pharagraph: "Using React,Tailwind CSS" ,
         category: "Web Development",
         links: [
           {
