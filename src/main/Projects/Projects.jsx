@@ -9,6 +9,7 @@ import TutionImage from "../../assets/web_design/Tution.jpg";
 import PortfolioImage from "../../assets/web_design/port.jpg";
 import VolImage from "../../assets/UI_DESIGN/volapp.jpg";
 import HotelImage from "../../assets/web_design/hotel.jpg";
+import HealixB from "../../assets/UI_DESIGN/Healix.jpg";
 
 
 
@@ -112,6 +113,28 @@ const Projects = () => {
         ],
       },*/
       
+     
+      {
+        id: 7,
+        image: HealixB,
+        title: "Bicycle Branding Website Design",
+        category: "UI Designs",
+        links: [
+          {
+            icon: "fab fa-linkedin",
+            url: "https://www.linkedin.com/posts/nimeshi-dilshara-b2508a255_uiux-webdesign-bicyclebranding-activity-7291925724049879040-ShSk?utm_source=share&utm_medium=member_desktop",
+          },
+          {
+            icon: "fab fa-behance",
+            url: "https://www.behance.net/gallery/218323753/Bicycle-Branding-Website",
+          },
+          {
+            icon: "fab fa-dribbble",
+            url: "",
+          },
+        ],
+      },
+
       {
         id: 6,
         image: VolImage,
@@ -120,7 +143,7 @@ const Projects = () => {
         links: [
           {
             icon: "fab fa-linkedin",
-            url: "",
+            url: "https://www.linkedin.com/posts/nimeshi-dilshara-b2508a255_uiux-mobileapp-volunteerplatform-activity-7283451119257690113-mZs-?utm_source=share&utm_medium=member_desktop",
           },
           {
             icon: "fab fa-behance",
