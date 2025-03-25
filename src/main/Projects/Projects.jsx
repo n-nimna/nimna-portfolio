@@ -10,6 +10,7 @@ import PortfolioImage from "../../assets/web_design/port.jpg";
 import VolImage from "../../assets/UI_DESIGN/volapp.jpg";
 import HotelImage from "../../assets/web_design/hotel.jpg";
 import HealixB from "../../assets/UI_DESIGN/Healix.jpg";
+import BlockMind from "../../assets/UI_DESIGN/BlockM.jpg";
 
 
 
@@ -114,6 +115,28 @@ const Projects = () => {
       },*/
       
      
+      {
+        id: 8,
+        image: BlockMind,
+        title: "Social Media Blocking App",
+        category: "UI Designs",
+        links: [
+          {
+            icon: "fab fa-linkedin",
+            url: "https://www.linkedin.com/feed/update/urn:li:activity:7310293123409014784/",
+          },
+          {
+            icon: "fab fa-behance",
+            url: "https://www.behance.net/gallery/222243291/Social-Media-Block-App",
+          },
+          {
+            icon: "fab fa-dribbble",
+            url: "",
+          },
+        ],
+      },
+ 
+
       {
         id: 7,
         image: HealixB,
